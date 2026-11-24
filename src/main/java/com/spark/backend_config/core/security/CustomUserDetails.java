@@ -1,6 +1,5 @@
 package com.spark.backend_config.core.security;
 
-import com.cakequake.cakequakeback.member.entities.Member;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -10,26 +9,29 @@ import java.util.List;
 
 public class CustomUserDetails implements UserDetails {
 
-    private final Member member;
+//    private final Member member;
 
-    public CustomUserDetails(Member member) {
-        this.member = member;
-    }
+//    public CustomUserDetails(Member member) {
+//        this.member = member;
+//    }
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         // BUYER, SELLER, ADMIN
-        return List.of(new SimpleGrantedAuthority("ROLE_" + member.getRole().name()));
+//        return List.of(new SimpleGrantedAuthority("ROLE_" + member.getRole().name()));
+        return List.of(new SimpleGrantedAuthority("ROLE_"));
     }
 
     @Override
     public String getPassword() {
-        return member.getPassword();
+//        return member.getPassword();
+        return null;
     }
 
     @Override
     public String getUsername() {
-        return member.getUserId();
+//        return member.getUserId();
+        return null;
     }
 
     @Override
@@ -54,7 +56,7 @@ public class CustomUserDetails implements UserDetails {
         return true; // 활성화 된 계정
     }
 
-    public Member getMember() {
-        return member;
-    }
+//    public Member getMember() {
+//        return member;
+//    }
 }
