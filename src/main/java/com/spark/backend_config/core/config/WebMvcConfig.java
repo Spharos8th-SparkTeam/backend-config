@@ -15,15 +15,4 @@ public class WebMvcConfig implements WebMvcConfigurer {
         registry.addResourceHandler("/reviewuploads/**")
                 .addResourceLocations("file:" + UPLOAD_DIR + "/");
     }
-    @Override
-    public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**")
-                .allowedOrigins(
-                        "http://localhost:5173",
-                        "https://30e1-58-235-119-39.ngrok-free.app"
-                )
-                .allowedMethods("*")
-                .allowedHeaders("*")
-                .allowCredentials(true);
-    }
 }
