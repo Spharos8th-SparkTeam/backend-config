@@ -1,4 +1,4 @@
-package com.cakequake.cakequakeback.common.utils;
+package com.spark.backend_config.core.config;
 
 import io.jsonwebtoken.JwtException;
 import jakarta.servlet.http.Cookie;

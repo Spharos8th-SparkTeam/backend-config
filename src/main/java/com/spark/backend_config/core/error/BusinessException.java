@@ -1,4 +1,4 @@
-package com.cakequake.cakequakeback.common.exception;
+package com.spark.backend_config.core.error;
 
 
 public class BusinessException extends RuntimeException {

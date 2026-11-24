@@ -1,7 +1,5 @@
-package com.cakequake.cakequakeback.security.exception;
+package com.spark.backend_config.core.error;
 
-import com.cakequake.cakequakeback.common.exception.ErrorCode;
-import com.cakequake.cakequakeback.common.exception.ErrorResponseDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -9,6 +7,8 @@ import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.stereotype.Component;
+import com.spark.backend_config.core.error.ErrorCode;
+import com.spark.backend_config.core.error.ErrorResponseDTO;
 
 import java.io.IOException;
 import java.time.LocalDateTime;

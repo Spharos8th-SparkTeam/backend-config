@@ -1,4 +1,4 @@
-package com.cakequake.cakequakeback.security.domain;
+package com.spark.backend_config.core.security;
 
 import com.cakequake.cakequakeback.member.entities.Member;
 import org.springframework.security.core.GrantedAuthority;

@@ -1,4 +1,4 @@
-package com.cakequake.cakequakeback.common.config;
+package com.spark.backend_config.core.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

@@ -1,4 +1,4 @@
-package com.cakequake.cakequakeback.security.jwt;
+package com.spark.backend_config.core.jwt;
 
 import com.cakequake.cakequakeback.member.entities.Member;
 import com.cakequake.cakequakeback.member.entities.MemberRole;

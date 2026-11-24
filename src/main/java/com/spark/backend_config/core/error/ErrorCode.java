@@ -1,4 +1,4 @@
-package com.cakequake.cakequakeback.common.exception;
+package com.spark.backend_config.core.error;
 
 import lombok.Getter;
 

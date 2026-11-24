@@ -1,13 +1,13 @@
-package com.cakequake.cakequakeback.security.filter;
+package com.spark.backend_config.core.jwt;
 
-import com.cakequake.cakequakeback.common.exception.BusinessException;
-import com.cakequake.cakequakeback.common.exception.ErrorCode;
-import com.cakequake.cakequakeback.common.exception.ErrorResponseDTO;
+import com.spark.backend_config.core.error.BusinessException;
+import com.spark.backend_config.core.error.ErrorCode;
+import com.spark.backend_config.core.error.ErrorResponseDTO;
 import com.cakequake.cakequakeback.common.utils.JWTUtil;
 import com.cakequake.cakequakeback.member.entities.Member;
 import com.cakequake.cakequakeback.member.entities.MemberStatus;
 import com.cakequake.cakequakeback.member.repo.MemberRepository;
-import com.cakequake.cakequakeback.security.domain.CustomUserDetails;
+import com.spark.backend_config.core.security.CustomUserDetails;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

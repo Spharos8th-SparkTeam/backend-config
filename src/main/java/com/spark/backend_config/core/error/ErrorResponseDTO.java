@@ -1,4 +1,4 @@
-package com.cakequake.cakequakeback.common.exception;
+package com.spark.backend_config.core.error;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;

@@ -1,8 +1,8 @@
-package com.cakequake.cakequakeback.security.config;
+package com.spark.backend_config.core.config;
 
-import com.cakequake.cakequakeback.security.exception.CustomAccessDeniedHandler;
-import com.cakequake.cakequakeback.security.exception.CustomAuthenticationEntryPoint;
-import com.cakequake.cakequakeback.security.filter.JWTAuthenticationFilter;
+import com.spark.backend_config.core.error.CustomAccessDeniedHandler;
+import com.spark.backend_config.core.error.CustomAuthenticationEntryPoint;
+import com.spark.backend_config.core.jwt.JWTAuthenticationFilter;
 import com.cakequake.cakequakeback.security.service.CustomUserDetailsService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
