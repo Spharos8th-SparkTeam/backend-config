@@ -1,0 +1,5 @@
+# 운영 Eureka 주소는 환경변수로 주입한다
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URL}

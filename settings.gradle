@@ -1,1 +1,4 @@
 rootProject.name = 'backend-config'
+
+include 'common'
+include 'config-server'
